@@ -1,0 +1,42 @@
+.h1__and__navbar__container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.header__h1__container{
+    width: 30%;
+}
+
+.header__navbar__container{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: right;
+}
+
+.header__navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.header__navbar__ul{    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: right;
+}
+
+header nav ul li{
+    margin-right: 5%;
+    font-size: 20px;
+    align-content: center;
+}
+
+header nav ul li a{
+    color: black;
+}

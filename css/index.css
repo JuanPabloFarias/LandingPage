@@ -1,0 +1,66 @@
+*{
+    font-family: "Roboto", serif;
+}
+
+a{
+text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+
+/* MAIN START */
+
+.main__div__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.main__aside{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main__icon__propeties{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.main__user__description{
+    width: 45%;
+    padding: 2%;
+}
+
+.main__user__image{
+    width: 45%;
+}
+
+.main__p__bigtext{
+    font-size: 50px;
+}
+
+.main__user__image img{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.main__a__cv{
+
+}
+
+.main__a__proyectos{
+
+}
+
+
+
+/* MAIN END */
