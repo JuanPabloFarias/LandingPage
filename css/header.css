@@ -1,9 +1,7 @@
 .h1__and__navbar__container{
     display: flex;
     flex-direction: row;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 2%;
+    padding: 2% 5%;
     width: 100%;
 }
 
@@ -38,5 +36,5 @@ header nav ul li{
 }
 
 header nav ul li a{
-    color: black;
+    font-size: 30px;
 }
