@@ -1,0 +1,121 @@
+.logo__and__navbar__container{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 5%;
+    width: 100%;
+}
+
+header{
+    background: linear-gradient(to top, #000000, #002c5c);
+    /* Para hacer que el header se quede fijo en la pantalla incluso si hacemos scroll abajo. */
+    /* 
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 100; */
+}
+
+.header__logo{
+    max-width: 150px;
+    border-radius: 40px;
+}
+
+.header__logo__container{
+    width: 30%;
+}
+
+.header__navbar__container{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: right;
+}
+
+.header__navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.header__navbar__ul{    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: right;
+}
+
+header nav ul li{
+    margin-right: 5%;
+    font-size: 20px;
+    align-content: center;
+}
+
+header nav ul li a{
+    font-size: 30px;
+    border-bottom: 2px solid transparent;
+    transition: all 1s ease;
+}
+
+header nav ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+@media (max-width: 767px) {
+    
+
+    .header__logo__container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo__and__navbar__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+    .header__navbar__container, .header__navbar, .header__navbar__ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .header__navbar__ul{
+        padding: 0;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .logo__and__navbar__container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+
+    
+
+    .header__logo__container{
+        width: 100%;
+    }
+    
+    .header__navbar__container{
+        width: 100%;
+    }
+
+    .header__navbar__ul{
+        justify-content: space-around;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 1023px){
+    
+}
