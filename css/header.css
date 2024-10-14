@@ -38,3 +38,39 @@ header nav ul li{
 header nav ul li a{
     font-size: 30px;
 }
+
+
+@media (max-width: 767px) {
+    
+
+    .header__h1__container{
+        width: 100%;
+    }
+
+    .h1__and__navbar__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+    .header__navbar__container, .header__navbar, .header__navbar__ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .header__navbar__ul{
+        padding: 0;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+
+}
+
+@media (min-width: 1023px){
+    
+}

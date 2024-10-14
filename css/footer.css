@@ -37,7 +37,6 @@
 }
 
 .footer__form{
-    font-size: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -60,3 +59,37 @@
     border: 3px solid white;
 }
 
+@media (max-width: 767px) {
+    .footer__title{
+        padding-top: 20px;
+    }
+
+    .footer__contact__p{
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .footer__title{
+        text-align: center;
+    }
+
+    .footer__form__input{
+        font-size: 20px;
+        padding: 5px 10px 5px 10px;
+    }
+    
+
+    .footer__form__submit{
+        font-size: 20px;
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    
+}
+
+@media (min-width: 1023px){
+    
+}
