@@ -243,7 +243,25 @@ footer{
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
-    
+    .main__ul{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__ul__li{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .main__div__container__bottom{
+        flex-direction: column;
+    }
+
+    .main__section{
+        width: 90%;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 1023px){
