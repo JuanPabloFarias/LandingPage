@@ -1,11 +1,28 @@
-.h1__and__navbar__container{
+.logo__and__navbar__container{
     display: flex;
     flex-direction: row;
     padding: 2% 5%;
     width: 100%;
 }
 
-.header__h1__container{
+header{
+    background: linear-gradient(to top, #000000, #002c5c);
+    /* Para hacer que el header se quede fijo en la pantalla incluso si hacemos scroll abajo. */
+    /* 
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 100; */
+}
+
+.header__logo{
+    max-width: 150px;
+    border-radius: 40px;
+}
+
+.header__logo__container{
     width: 30%;
 }
 
@@ -37,17 +54,25 @@ header nav ul li{
 
 header nav ul li a{
     font-size: 30px;
+    border-bottom: 2px solid transparent;
+    transition: all 1s ease;
+}
+
+header nav ul li a:hover{
+    border-bottom: 2px solid white;
 }
 
 
 @media (max-width: 767px) {
     
 
-    .header__h1__container{
+    .header__logo__container{
+        display: flex;
         width: 100%;
+        justify-content: center;
     }
 
-    .h1__and__navbar__container{
+    .logo__and__navbar__container{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,14 +93,16 @@ header nav ul li a{
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
-    .h1__and__navbar__container{
+    .logo__and__navbar__container{
         width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         }
 
-    .header__h1__container{
+    
+
+    .header__logo__container{
         width: 100%;
     }
     
